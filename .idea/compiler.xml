@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="payment" />
+        <module name="commoms" />
+        <module name="order" />
+      </profile>
+      <profile name="Annotation profile for fastclould" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="nacos-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="commoms" target="8" />
+      <module name="commons" target="8" />
+      <module name="eureka-server" target="8" />
+      <module name="fastcloud" target="1.8" />
+      <module name="nacos-server" target="8" />
+      <module name="order" target="8" />
+      <module name="payment" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="commoms" options="-parameters" />
+      <module name="commons" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="fastcloud" options="-parameters" />
+      <module name="nacos-server" options="-parameters" />
+      <module name="order" options="-parameters" />
+      <module name="payment" options="-parameters" />
+    </option>
+  </component>
+</project>

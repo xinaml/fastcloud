@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: payment  #服务名
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        # 配置中心配置文件的后缀名格式
+        file-extension: yaml
+        # 是否动态刷新，默认为false
+        refresh: true
+        namespace: 9ab5a4a0-dfcf-40c8-8b38-abfdec5f5193
+        group: DEV_GROUP
+      #服务注册
+      discovery:
+        server-addr: localhost:8848
+        group: DEV_GROUP
+        namespace: 9ab5a4a0-dfcf-40c8-8b38-abfdec5f5193
