@@ -25,6 +25,10 @@ public class CommonResult {
        return new CommonResult(-1, msg, data);
     }
 
+    public static CommonResult fail(Integer code,String msg){
+       return new CommonResult(code, msg, null);
+    }
+
     public static CommonResult success(String msg,Object data){
        return new CommonResult(200, msg, data);
     }
