@@ -7,36 +7,49 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="payment" />
-        <module name="commoms" />
-        <module name="order" />
+        <module name="commoms-bean" />
+        <module name="commoms-provider" />
+        <module name="order-provider" />
+        <module name="order-bean" />
+        <module name="commoms-dao" />
+        <module name="order-dao" />
+        <module name="payment-dao" />
+        <module name="xcx-web" />
+        <module name="payment-provider" />
+        <module name="payment-bean" />
       </profile>
-      <profile name="Annotation profile for fastclould" enabled="true">
+      <profile name="Annotation profile for fastcloud" enabled="true">
         <sourceOutputDir name="../target/generated-sources/annotations" />
         <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="nacos-server" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="commoms" target="8" />
-      <module name="commons" target="8" />
-      <module name="eureka-server" target="8" />
-      <module name="fastcloud" target="1.8" />
-      <module name="nacos-server" target="8" />
-      <module name="order" target="8" />
-      <module name="payment" target="8" />
+    <bytecodeTargetLevel target="8">
+      <module name="commoms-bean" target="8" />
+      <module name="commoms-dao" target="8" />
+      <module name="commoms-provider" target="8" />
+      <module name="fastcloud" target="8" />
+      <module name="order-bean" target="8" />
+      <module name="order-dao" target="8" />
+      <module name="order-provider" target="8" />
+      <module name="payment-bean" target="8" />
+      <module name="payment-dao" target="8" />
+      <module name="payment-provider" target="8" />
+      <module name="xcx-web" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="commoms" options="-parameters" />
-      <module name="commons" options="-parameters" />
-      <module name="eureka-server" options="-parameters" />
+      <module name="commoms-dao" options="" />
+      <module name="commoms-provider" options="-parameters" />
       <module name="fastcloud" options="-parameters" />
       <module name="nacos-server" options="-parameters" />
-      <module name="order" options="-parameters" />
-      <module name="payment" options="-parameters" />
+      <module name="order-provider" options="" />
+      <module name="payment-bean" options="" />
+      <module name="payment-dao" options="" />
+      <module name="payment-provider" options="" />
+      <module name="xcx-web" options="-parameters" />
     </option>
   </component>
 </project>

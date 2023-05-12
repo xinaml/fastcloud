@@ -4,17 +4,37 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/user/user-api/pom.xml" />
+        <option value="$PROJECT_DIR$/user/user-bean/pom.xml" />
+        <option value="$PROJECT_DIR$/user/user-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/user/user-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/commoms/commoms-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/commoms/commoms-bean/pom.xml" />
+        <option value="$PROJECT_DIR$/commoms/commom-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/xcx-web/pom.xml" />
+        <option value="$PROJECT_DIR$/payment/payment/payment-bean/pom.xml" />
+        <option value="$PROJECT_DIR$/payment/payment-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/payment/payment-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/order/pom.xml" />
+        <option value="$PROJECT_DIR$/order/order-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/order/order-provider/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/commoms/commoms-bean/payment-bean/pom.xml" />
         <option value="$PROJECT_DIR$/common-api/pom.xml" />
         <option value="$PROJECT_DIR$/commons/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/order-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/user-api/pom.xml" />
+        <option value="$PROJECT_DIR$/user-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/user/pom.xml" />
+        <option value="$PROJECT_DIR$/user/user-web-api/pom.xml" />
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
