@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.xinaml</groupId>
-    <artifactId>payment-dao</artifactId>
+    <artifactId>payment-bean</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -14,22 +14,9 @@
     <dependencies>
         <dependency>
             <groupId>com.xinaml</groupId>
-            <artifactId>commoms-dao</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.xinaml</groupId>
-            <artifactId>payment-bean</artifactId>
+            <artifactId>commoms-bean</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>
