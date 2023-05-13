@@ -9,13 +9,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="commoms-bean" />
         <module name="commoms-provider" />
-        <module name="order-provider" />
         <module name="order-bean" />
+        <module name="order-provider" />
         <module name="commoms-dao" />
         <module name="order-dao" />
         <module name="payment-dao" />
         <module name="xcx-web" />
         <module name="payment-provider" />
+        <module name="order-api" />
+        <module name="mysql-connect" />
         <module name="payment-bean" />
       </profile>
       <profile name="Annotation profile for fastcloud" enabled="true">
@@ -26,16 +28,23 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
+      <module name="app" target="8" />
+      <module name="commoms" target="8" />
       <module name="commoms-bean" target="8" />
       <module name="commoms-dao" target="8" />
       <module name="commoms-provider" target="8" />
       <module name="fastcloud" target="8" />
+      <module name="mysql-connect" target="8" />
+      <module name="order" target="8" />
+      <module name="order-api" target="8" />
       <module name="order-bean" target="8" />
       <module name="order-dao" target="8" />
       <module name="order-provider" target="8" />
+      <module name="payment" target="8" />
       <module name="payment-bean" target="8" />
       <module name="payment-dao" target="8" />
       <module name="payment-provider" target="8" />
+      <module name="service_modules" target="8" />
       <module name="xcx-web" target="8" />
     </bytecodeTargetLevel>
   </component>
@@ -45,6 +54,7 @@
       <module name="commoms-provider" options="-parameters" />
       <module name="fastcloud" options="-parameters" />
       <module name="nacos-server" options="-parameters" />
+      <module name="order-api" options="-parameters" />
       <module name="order-provider" options="" />
       <module name="payment-bean" options="" />
       <module name="payment-dao" options="" />

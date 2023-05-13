@@ -2,18 +2,25 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commoms/commoms.iml" filepath="$PROJECT_DIR$/commoms/commoms.iml" />
       <module fileurl="file://$PROJECT_DIR$/commoms/commoms-bean/commoms-bean.iml" filepath="$PROJECT_DIR$/commoms/commoms-bean/commoms-bean.iml" />
       <module fileurl="file://$PROJECT_DIR$/commoms/commoms-dao/commoms-dao.iml" filepath="$PROJECT_DIR$/commoms/commoms-dao/commoms-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/commoms/commoms-provider/commoms-provider.iml" filepath="$PROJECT_DIR$/commoms/commoms-provider/commoms-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/fastcloud.iml" filepath="$PROJECT_DIR$/fastcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commoms/mysql-connect/mysql-connect.iml" filepath="$PROJECT_DIR$/commoms/mysql-connect/mysql-connect.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/nacos-server.iml" filepath="$PROJECT_DIR$/eureka-server/nacos-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/order/order-bean/order-bean.iml" filepath="$PROJECT_DIR$/order/order-bean/order-bean.iml" />
-      <module fileurl="file://$PROJECT_DIR$/order/order-dao/order-dao.iml" filepath="$PROJECT_DIR$/order/order-dao/order-dao.iml" />
-      <module fileurl="file://$PROJECT_DIR$/order/order-provider/order-provider.iml" filepath="$PROJECT_DIR$/order/order-provider/order-provider.iml" />
-      <module fileurl="file://$PROJECT_DIR$/payment/payment-bean/payment-bean.iml" filepath="$PROJECT_DIR$/payment/payment-bean/payment-bean.iml" />
-      <module fileurl="file://$PROJECT_DIR$/payment/payment-dao/payment-dao.iml" filepath="$PROJECT_DIR$/payment/payment-dao/payment-dao.iml" />
-      <module fileurl="file://$PROJECT_DIR$/payment/payment-provider/payment-provider.iml" filepath="$PROJECT_DIR$/payment/payment-provider/payment-provider.iml" />
-      <module fileurl="file://$PROJECT_DIR$/xcx-web/xcx-web.iml" filepath="$PROJECT_DIR$/xcx-web/xcx-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service_modules/order/order.iml" filepath="$PROJECT_DIR$/service_modules/order/order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service_modules/order/order-api/order-api.iml" filepath="$PROJECT_DIR$/service_modules/order/order-api/order-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service_modules/order/order-bean/order-bean.iml" filepath="$PROJECT_DIR$/service_modules/order/order-bean/order-bean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service_modules/order/order-dao/order-dao.iml" filepath="$PROJECT_DIR$/service_modules/order/order-dao/order-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service_modules/order/order-provider/order-provider.iml" filepath="$PROJECT_DIR$/service_modules/order/order-provider/order-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service_modules/payment/payment.iml" filepath="$PROJECT_DIR$/service_modules/payment/payment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service_modules/payment/payment-bean/payment-bean.iml" filepath="$PROJECT_DIR$/service_modules/payment/payment-bean/payment-bean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service_modules/payment/payment-dao/payment-dao.iml" filepath="$PROJECT_DIR$/service_modules/payment/payment-dao/payment-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service_modules/payment/payment-provider/payment-provider.iml" filepath="$PROJECT_DIR$/service_modules/payment/payment-provider/payment-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service_modules/service_modules.iml" filepath="$PROJECT_DIR$/service_modules/service_modules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/xcx-web/xcx-web.iml" filepath="$PROJECT_DIR$/app/xcx-web/xcx-web.iml" />
     </modules>
   </component>
 </project>

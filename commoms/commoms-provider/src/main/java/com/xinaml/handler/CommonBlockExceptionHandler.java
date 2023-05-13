@@ -19,7 +19,7 @@ import javax.servlet.http.HttpServletResponse;
  * @author liguiqin
  * @date 2023/5/11
  */
-
+@Component
 public class CommonBlockExceptionHandler implements BlockExceptionHandler {
     @Override
     public void handle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, BlockException e) throws Exception {
