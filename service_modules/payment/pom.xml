@@ -16,5 +16,6 @@
         <module>payment-bean</module>
         <module>payment-dao</module>
         <module>payment-provider</module>
+        <module>payment-api</module>
     </modules>
 </project>

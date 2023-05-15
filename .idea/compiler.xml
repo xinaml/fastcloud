@@ -10,15 +10,16 @@
         <module name="commoms-bean" />
         <module name="commoms-provider" />
         <module name="order-bean" />
-        <module name="order-provider" />
         <module name="commoms-dao" />
         <module name="order-dao" />
-        <module name="payment-dao" />
-        <module name="xcx-web" />
-        <module name="payment-provider" />
         <module name="order-api" />
-        <module name="mysql-connect" />
+        <module name="payment-api" />
         <module name="payment-bean" />
+        <module name="mysql-connect" />
+        <module name="order-provider" />
+        <module name="payment-dao" />
+        <module name="payment-provider" />
+        <module name="xcx-web" />
       </profile>
       <profile name="Annotation profile for fastcloud" enabled="true">
         <sourceOutputDir name="../target/generated-sources/annotations" />
@@ -41,6 +42,7 @@
       <module name="order-dao" target="8" />
       <module name="order-provider" target="8" />
       <module name="payment" target="8" />
+      <module name="payment-api" target="8" />
       <module name="payment-bean" target="8" />
       <module name="payment-dao" target="8" />
       <module name="payment-provider" target="8" />
@@ -56,10 +58,11 @@
       <module name="nacos-server" options="-parameters" />
       <module name="order-api" options="-parameters" />
       <module name="order-provider" options="" />
+      <module name="payment-api" options="-parameters" />
       <module name="payment-bean" options="" />
       <module name="payment-dao" options="" />
       <module name="payment-provider" options="" />
-      <module name="xcx-web" options="-parameters" />
+      <module name="xcx-web" options="" />
     </option>
   </component>
 </project>

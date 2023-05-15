@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/service_modules/order/order-dao/order-dao.iml" filepath="$PROJECT_DIR$/service_modules/order/order-dao/order-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/service_modules/order/order-provider/order-provider.iml" filepath="$PROJECT_DIR$/service_modules/order/order-provider/order-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/service_modules/payment/payment.iml" filepath="$PROJECT_DIR$/service_modules/payment/payment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service_modules/payment/payment-api/payment-api.iml" filepath="$PROJECT_DIR$/service_modules/payment/payment-api/payment-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/service_modules/payment/payment-bean/payment-bean.iml" filepath="$PROJECT_DIR$/service_modules/payment/payment-bean/payment-bean.iml" />
       <module fileurl="file://$PROJECT_DIR$/service_modules/payment/payment-dao/payment-dao.iml" filepath="$PROJECT_DIR$/service_modules/payment/payment-dao/payment-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/service_modules/payment/payment-provider/payment-provider.iml" filepath="$PROJECT_DIR$/service_modules/payment/payment-provider/payment-provider.iml" />
