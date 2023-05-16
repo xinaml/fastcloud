@@ -24,21 +24,6 @@
             <artifactId>payment-dao</artifactId>
             <version>${fastcloud.version}</version>
         </dependency>
-        <dependency>
-            <groupId>com.xinaml</groupId>
-            <artifactId>order-api</artifactId>
-            <version>${fastcloud.version}</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>com.xinaml</groupId>
-                    <artifactId>commoms-bean</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.springframework.boot</groupId>
-                    <artifactId>spring-boot-starter-web</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
     </dependencies>
     <build>
         <plugins>
