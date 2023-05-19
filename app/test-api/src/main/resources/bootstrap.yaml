@@ -1,0 +1,28 @@
+server:
+  port: 7777
+spring:
+  application:
+    name: test-api  #服务名
+  cloud:
+    loadbalancer:
+      ribbon:
+        enabled: false
+    #流量监控,熔断,限流
+    sentinel:
+      transport:
+        dashboard: 127.0.0.1:8080 #仪表盘地址
+      eager: true
+    #远程配置
+    nacos:
+      #服务注册
+      discovery:
+        server-addr: 127.0.0.1:8849
+      #远程配置
+      config:
+        server-addr: ${spring.cloud.nacos.discovery.server-addr}
+        file-extension: yaml #配置中心配置文件的后缀名格式
+        refresh: true # 是否动态刷新，默认为false
+logging:
+  level:
+    feign:
+      Logger=FULL:

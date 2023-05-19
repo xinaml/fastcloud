@@ -2,7 +2,7 @@ package com.xinaml.order.controller;
 
 import com.xinaml.order.bean.Order;
 import com.xinaml.order.service.OrderService;
-import com.xinaml.result.CommonResult;
+import com.xinaml.provider.result.CommonResult;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -42,8 +42,4 @@ public class OrderController {
         }
     }
 
-    @GetMapping("/test")
-    public CommonResult test() {
-        return CommonResult.success("查询成功", null);
-    }
 }

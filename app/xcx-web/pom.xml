@@ -7,29 +7,52 @@
     <groupId>com.xinaml</groupId>
     <artifactId>xcx-web</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
-        <fastcloud.version>1.0-SNAPSHOT</fastcloud.version>
-    </properties>
 
-
+    <parent>
+        <groupId>com.xinaml</groupId>
+        <artifactId>fastcloud</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
     <dependencies>
         <dependency>
             <groupId>com.xinaml</groupId>
             <artifactId>commoms-provider</artifactId>
-            <version>${fastcloud.version}</version>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.xinaml</groupId>
             <artifactId>order-api</artifactId>
-            <version>${fastcloud.version}</version>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.xinaml</groupId>
             <artifactId>payment-api</artifactId>
-            <version>${fastcloud.version}</version>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.xinaml</groupId>
+            <artifactId>test-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-logging</artifactId>
         </dependency>
     </dependencies>
-
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.1.7.RELEASE</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 </project>

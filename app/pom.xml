@@ -15,6 +15,7 @@
     </properties>
     <modules>
         <module>xcx-web</module>
+        <module>test-api</module>
     </modules>
 
 </project>

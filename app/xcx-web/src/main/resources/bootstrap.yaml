@@ -26,3 +26,7 @@ spring:
         refresh: true # 是否动态刷新，默认为false
         namespace: ${spring.cloud.nacos.discovery.namespace}
         group: ${spring.cloud.nacos.discovery.group}
+logging:
+  level:
+    feign:
+      Logger=FULL:

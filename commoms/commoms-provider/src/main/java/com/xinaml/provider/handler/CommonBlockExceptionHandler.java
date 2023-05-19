@@ -1,4 +1,4 @@
-package com.xinaml.handler;
+package com.xinaml.provider.handler;
 
 import com.alibaba.csp.sentinel.adapter.spring.webmvc.callback.BlockExceptionHandler;
 import com.alibaba.csp.sentinel.slots.block.BlockException;
@@ -8,7 +8,7 @@ import com.alibaba.csp.sentinel.slots.block.flow.FlowException;
 import com.alibaba.csp.sentinel.slots.block.flow.param.ParamFlowException;
 import com.alibaba.csp.sentinel.slots.system.SystemBlockException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.xinaml.result.CommonResult;
+import com.xinaml.provider.result.CommonResult;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Component;
 

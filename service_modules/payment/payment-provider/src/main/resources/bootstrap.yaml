@@ -1,6 +1,6 @@
 spring:
   application:
-    name: payment  #服务名
+    name: payment #服务名
   cloud:
     loadbalancer:
       ribbon:

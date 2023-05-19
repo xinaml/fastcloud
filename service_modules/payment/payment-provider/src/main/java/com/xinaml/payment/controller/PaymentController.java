@@ -2,7 +2,7 @@ package com.xinaml.payment.controller;
 
 import com.xinaml.payment.bean.Payment;
 import com.xinaml.payment.service.PaymentService;
-import com.xinaml.result.CommonResult;
+import com.xinaml.provider.result.CommonResult;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -53,8 +53,4 @@ public class PaymentController {
         }
     }
 
-    @GetMapping("/test")
-    public CommonResult test() {
-        return CommonResult.success("查询成功", null);
-    }
-}
+ }

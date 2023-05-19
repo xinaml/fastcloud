@@ -21,6 +21,7 @@
       <module fileurl="file://$PROJECT_DIR$/service_modules/payment/payment-dao/payment-dao.iml" filepath="$PROJECT_DIR$/service_modules/payment/payment-dao/payment-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/service_modules/payment/payment-provider/payment-provider.iml" filepath="$PROJECT_DIR$/service_modules/payment/payment-provider/payment-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/service_modules/service_modules.iml" filepath="$PROJECT_DIR$/service_modules/service_modules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/test-api/test-api.iml" filepath="$PROJECT_DIR$/app/test-api/test-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/xcx-web/xcx-web.iml" filepath="$PROJECT_DIR$/app/xcx-web/xcx-web.iml" />
     </modules>
   </component>

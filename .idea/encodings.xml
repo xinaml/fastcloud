@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/test-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/xcx-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commoms/commoms-bean/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/commoms/commoms-provider/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/commoms/commoms-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commoms/mysql-connect/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service_modules/order/order-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service_modules/order/order-bean/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service_modules/order/order-dao/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service_modules/order/order-provider/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service_modules/payment/payment-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service_modules/payment/payment-bean/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service_modules/payment/payment-dao/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service_modules/payment/payment-provider/src/main/java" charset="UTF-8" />
   </component>
 </project>

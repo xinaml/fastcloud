@@ -1,4 +1,4 @@
-package com.xinaml.result;
+package com.xinaml.provider.result;
 
 /**
  * @author liguiqin
@@ -15,7 +15,7 @@ public class CommonResult {
         this(code, msg, null);
     }
 
-    public CommonResult(Integer code, String msg,Object data) {
+    public CommonResult(Integer code, String msg, Object data) {
         this.code=code;
         this.msg=msg;
         this.data=data;
